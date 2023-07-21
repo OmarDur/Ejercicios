@@ -5,7 +5,7 @@ public class numerosenteros {
         Scanner scanner = new Scanner(System.in);
 
         // Pedir los datos del primer bloque
-        System.out.println("Introduce los 10 números del primer bloque:");
+        System.out.println("Introduce los 10 números del primer bloque: ");
         for (int i = 0; i < 10; i++) {
             bloques[0][i] = scanner.nextInt();
         }
